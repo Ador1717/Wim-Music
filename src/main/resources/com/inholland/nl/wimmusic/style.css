@@ -1,0 +1,8 @@
+.bold-large-label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+.red-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
