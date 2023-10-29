@@ -11,7 +11,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.PasswordField?>
 <GridPane xmlns:fx="http://javafx.com/fxml"
-          fx:controller="com.inholland.nl.wimmusic.Controller.HelloController"
+          fx:controller="com.inholland.nl.wimmusic.controller.LoginController"
           prefHeight="240.0" prefWidth="320.0"
           stylesheets="@style.css">
   <columnConstraints>
@@ -33,6 +33,7 @@
   <Label text="Password " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
   <PasswordField fx:id="PasswordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
   <Button fx:id="loginButton" text="Login" styleClass="red-button" GridPane.ColumnIndex="1" GridPane.rowIndex="3"  onAction="#onHelloButtonClick" />
-  <Label fx:id="errorMessage" text="" GridPane.columnIndex="0" GridPane.rowIndex="4" textFill="RED" visible="false"/>
+  <Label fx:id="errorMessage" GridPane.columnIndex="0" GridPane.rowIndex="4" textFill="RED" visible="false"/>
+  <Label fx:id="errorMessage2"  GridPane.columnIndex="0" GridPane.rowIndex="4" textFill="RED" visible="false"/>
 </GridPane>
 

@@ -5,8 +5,8 @@ module com.inholland.nl.wimmusic {
 
     opens com.inholland.nl.wimmusic to javafx.fxml;
     exports com.inholland.nl.wimmusic;
-    exports com.inholland.nl.wimmusic.Model;
-    opens com.inholland.nl.wimmusic.Model to javafx.fxml;
-    exports com.inholland.nl.wimmusic.Controller;
-    opens com.inholland.nl.wimmusic.Controller to javafx.fxml;
+    exports com.inholland.nl.wimmusic.model;
+    opens com.inholland.nl.wimmusic.model to javafx.fxml;
+    exports com.inholland.nl.wimmusic.controller;
+    opens com.inholland.nl.wimmusic.controller to javafx.fxml;
 }

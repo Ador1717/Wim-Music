@@ -1,11 +1,10 @@
-package com.inholland.nl.wimmusic.Controller;
+package com.inholland.nl.wimmusic.controller;
 
-import com.inholland.nl.wimmusic.Database.userDatabase;
-import com.inholland.nl.wimmusic.Model.user;
+import com.inholland.nl.wimmusic.database.Data;
+import com.inholland.nl.wimmusic.model.User;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -17,20 +16,20 @@ public class DashboardButtonController {
     @FXML
     private Label dateAndTime;
 
-    public userDatabase database ;
-    public user user1;
+    public Data database ;
+    public User user1;
 
-    public void setUser(user user) {
+    public void setUser(User user) {
         this.user1 = user;
         getUser();
     }
-    public void setDatabase(userDatabase database) {
+    public void setDatabase(Data database) {
         this.database = database;
 
     }
 
     public void getUser(){
-        userName.setText("Welcome" + user1.getUsername()+"!");
+        userName.setText("Welcome " + user1.getUsername()+"!");
         userRole.setText("Your role is: "+ user1.getRole());
 
         LocalDateTime localDateTime = LocalDateTime.now();

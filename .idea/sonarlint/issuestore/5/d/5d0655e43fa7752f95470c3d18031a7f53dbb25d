@@ -1,0 +1,28 @@
+
+r	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ†ÿÅüÿÿÿÿ8ï¤ÀÆ²1
+r
+java:S1104"VMake DisplayNew a static final constant or non-public and provide accessors if needed.(…¢“8ğ¤ÀÆ²1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—ñ¯8ò¤ÀÆ²1
+p	java:S116"URename this field "DisplayNew" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¢“8€¥ÀÆ²1
+O
+java:S1172"2Remove this unused method parameter "actionEvent".(Í˜ñß8†¥ÀÆ²1
+T
+java:S1172 "2Remove this unused method parameter "actionEvent".(µÍÁùÿÿÿÿ8‡¥ÀÆ²1
+T
+java:S1172$"2Remove this unused method parameter "actionEvent".(ÈÃ‰ÿÿÿÿÿ8ˆ¥ÀÆ²1
+T
+java:S1172)"2Remove this unused method parameter "actionEvent".(ı²í®ûÿÿÿÿ8‰¥ÀÆ²1
+v
+java:S1854S"TRemove this useless assignment to local variable "productInventoryButtonController".(ÆÏÒ¨üÿÿÿÿ8¥ÀÆ²1
+r
+java:S1854U"PRemove this useless assignment to local variable "orderHistoryButtonController".(‘´®îıÿÿÿÿ8¥ÀÆ²1
+‰
+java:S6201J"lReplace this instanceof check and cast with 'instanceof DashboardButtonController dashboardButtonController'(¢­ğ–8¡¥ÀÆ²1
+€
+java:S6201N"cReplace this instanceof check and cast with 'instanceof createOrderButtonController createOrderBtn'(ÛÂÛÕ8¢¥ÀÆ²1
+—
+java:S6201R"zReplace this instanceof check and cast with 'instanceof ProductInventoryButtonController productInventoryButtonController'(ì”ìó8£¥ÀÆ²1
+g
+java:S1481S"ERemove this unused "productInventoryButtonController" local variable.(ÆÏÒ¨üÿÿÿÿ8£¥ÀÆ²1
+c
+java:S1481U"ARemove this unused "orderHistoryButtonController" local variable.(‘´®îıÿÿÿÿ8¤¥ÀÆ²1
