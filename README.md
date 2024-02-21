@@ -10,10 +10,12 @@ Inventory Management: Allows managers to perform CRUD operations on the store's 
 Order History: Offers a detailed look at past orders and their specifics.
 Data Persistence: Ensures application state is preserved through serialization between sessions.
 # Installation and Setup
-Clone the Repository: git clone [Repository URL]
+Clone the Repository: git clone [Repository URL]. Make sure you clone the master branch, not the main.
 JavaFX Configuration: Ensure JavaFX is configured in your IDE.
 Project Setup: Open the project in your IDE and set it up to use JavaFX.
 Run the Application: on righ side, there is 'M' stands for maven click that and navigate to plugins\javafx\javafx:run
+
+# Make sure you using branch master, not the main.
 
 # Login creadentials
 # Sales Login:
@@ -21,5 +23,5 @@ Run the Application: on righ side, there is 'M' stands for maven click that and 
 #Password: Ador123!
 
 # Manager Login:
-#Username: Wim
-#Password: Wim123!
+# Username: Wim
+# Password: Wim123!
