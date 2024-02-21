@@ -17,9 +17,9 @@ Run the Application: on righ side, there is 'M' stands for maven click that and 
 
 # Login creadentials
 # Sales Login:
-Username: Ador
-Password: Ador123!
+# Username: Ador
+#Password: Ador123!
 
 # Manager Login:
-Username: Wim
-Password: Wim123!
+#Username: Wim
+#Password: Wim123!
